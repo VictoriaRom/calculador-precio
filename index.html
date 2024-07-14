@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador PrecioxCantidad</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="img-card"></div>
+        <div class="titulo-producto">Laptop Gamer AMD</div>
+        <div>
+            <label for="precioBase">Precio base:</label>
+            <span id="precioBase">$1000</span> <!-- Ajusta el valor según tu necesidad -->
+        </div>
+        <div>
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" value="0" readonly>
+        </div>
+        <div>
+            <button id="incremento">+</button>
+            <button id="decremento">-</button>
+        </div>
+    </div>
+    <div class="total-section">
+        <h2>Total a pagar:</h2>
+        <div id="totalPagar">$0</div>
+    </div>
+
+    <!-- Vinculación del archivo JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
